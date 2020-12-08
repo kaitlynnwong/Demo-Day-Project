@@ -1,0 +1,756 @@
+/* CSS files add styling rules to your content */
+
+/* .border {
+  border: 2px solid green; */
+
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+  color:black;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 2em;
+  
+}
+.header{
+  padding-top:35px;
+  text-align:center; 
+  
+}
+
+.logo{
+  font-size:34px;
+}
+
+
+
+.row{
+  padding-top:10px;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.about-us {
+  text-align: left;
+  /*border:2px solid red;*/
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+ /* border: 2px solid red;*/
+  
+}
+
+.cart {
+  width: 25px;
+  height: 25px;
+  /* border: 2px solid red; */
+}
+
+.search {
+  text-align: right;
+  /*border: 2px solid red;*/
+}
+
+.block1 {
+  /*border: 2px solid green;*/
+  display: block;
+  width: auto;
+  height: 300px;
+  /*   margin-left: auto;
+  margin-right: auto;
+  padding: 44px;
+  padding-top: 35px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro {
+  display: flex;
+  width: 40%;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* block next to introduction */
+#color1 {
+  width: 60%;
+  background: url(https://i.pinimg.com/originals/3b/0b/37/3b0b370fad2940f7d3340724dfda2bb0.jpg) no-repeat;
+  background-size:100% 100%;
+}
+
+.block2 {
+  background-color: #C7CEC6;
+  height: 300px;
+}
+
+.new-arrivals-img{
+    width: 100%;
+    height: 300px;
+    margin-left:30px;
+    overflow: hidden;
+  display: flex;
+    justify-content:space-between;
+  background-color: rgb(246,243,246);
+}
+
+img:nth-child(1):nth-last-child(3), 
+img:nth-child(2):nth-last-child(2), 
+img:nth-child(3):nth-last-child(1) {
+    width: 25%;
+    height: 100%;
+}
+
+.block3 {
+  /*border: 2px solid green; */
+  display: block;
+  width: auto;
+  height: 300px;
+  /*   margin-left: auto;
+  margin-right: auto;
+  padding: 44px;
+  padding-top: 35px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.why{
+  padding-left:5px;
+  padding-bottom:20px;
+  font-size:25px;
+  text-align:left; 
+}
+
+.protect{
+  padding-left:5px;
+  font-size:15px;
+  text-align:left; 
+}
+
+.read-more{
+  padding-left:5px;
+  font-size:19px;
+  text-align:left; 
+}
+
+.new-arrivals{
+  padding-left:20px;
+  font-size:23px;
+}
+
+.skincare {
+  width: 40%;
+  background-color: #CEE5C6;
+  height: 300px;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.cleansers {
+  width: 30%;
+  background: url(https://cdn.shopify.com/s/files/1/1797/9639/products/Meow_Meow_Tweet_Cleansing_Oil_2_720x.jpg?v=1569224289) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 300px;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.moisturizers {
+  width: 30%;
+  height: 300px;
+  background: url(https://cdn.shopify.com/s/files/1/1797/9639/products/tinted_facial_moisturizer_open_top_720x.jpg?v=1569168176) no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.block4{
+  /*border: 2px solid green;*/
+  display: block;
+  width: auto;
+  height: 300px;
+  /*   margin-left: auto;
+  margin-right: auto;
+  padding: 44px;
+  padding-top: 35px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.clothes{
+  width:25%;
+  height:300px;
+  background-color: #AEC1AB;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.shirts{
+  width:25%;
+  height:300px;
+  background: url(https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto:100:1200/v1/i/acf9e3a8_667e.jpg) no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.pants{
+  width:25%;
+  height:300px;
+  background:url(https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto:100:1200/v1/i/9d9bf9b1_3665.jpg) no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.outerwear{
+  width:25%;
+  height:300px;
+  background:url(https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto:100:1200/v1/i/1339344b_6952.jpg) no-repeat;
+  background-size:cover;
+  background-position:center; 
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 23px;
+}
+
+.block5 {
+  /*border: 2px solid green;*/
+  display: block;
+  width: auto;
+  height: 300px;
+  /*   margin-left: auto;
+  margin-right: auto;
+  padding: 44px;
+  padding-top: 35px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.impact {
+ width: 40%;
+  text-align:left;
+  padding-left:20px;
+  padding-bottom:20px;
+display:flex;
+  justify-content:flex-end;
+  flex-direction:column;
+}
+
+p1{
+  font-size:30px;
+  
+}
+
+p2{
+  font-size:16px;
+}
+
+p3{
+  font-size:20px;
+}
+
+/* block next to introduction */
+#color3 {
+  width: 60%;
+  background: url(https://66.media.tumblr.com/a71a28bd6d8c7901d20ebaffe79a1f30/tumblr_nog65y7IWY1urlch8o7_1280.png) no-repeat;
+  background-size:825.59px 300px;
+}
+
+.block6{
+  background-color:#D9E4CE;
+  height:300px;
+  text-align:left;
+  position: relative;
+}
+
+.block7{ 
+  background-color:#ffffff;
+  height: 300px;
+}
+
+.navtext {
+  overflow: hidden;
+}
+
+.join1{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display:grid;
+  justify-content:space-around;
+  grid-template-columns:1fr 1fr;
+  grid-column-gap:400px  
+}
+
+.mission{
+  font-size:18px;
+}
+
+.news{
+  font-size:26px;
+}
+
+.bottom{
+    display:inline-block;
+}
+
+.name{
+  width:70px;
+}
+
+.email{
+  width:150px;
+}
+
+.subscribe{
+  width:150px;
+}
+
+.join{
+  /*border:3px solid green;*/
+  display:inline-block;
+  grid-column-start:1;
+  grid-column-end:1;
+  margin-left:20px;
+}
+
+.join2{
+  /*border:3px solid green;*/
+  display:inline-block;
+  grid-column-start:2;
+  grid-column-end:2;
+  margin-right:20px;
+  font-size:18px;
+}
+
+.bottom{
+  border-bottom:2px solid black;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+b{
+  font-weight:900;
+  float:right;
+}
+
+ .grid {
+  justify-content:space-around;
+  display: grid;
+  padding-top: 50px;
+  border: 2px black;
+  height: auto;
+  width: auto;
+  grid-template-columns: 180px 130px 130px 130px 180px;
+  grid-template-rows: 300px 80px;
+  grid-column-gap: 40px;
+  grid-row-gap: 10x;
+  align-content: center;
+}
+
+.right {
+  float: right;
+}
+
+
+.headings{
+  font-size: 14px;
+}
+
+.titles{
+  font-size: 13px;
+}
+
+
+.next{
+  width:210px;
+  padding-top:5px;
+}
+
+.bottom1{
+  border-bottom:2px solid black;
+  margin-left:10px;
+  margin-right: 10px;
+  width:400px;
+  font-size:17px;
+}
+
+.login{
+  display:inline-block;
+  width: 100%;
+}
+
+.login2{
+  padding-top:20px;
+  padding-bottom:20px;
+  width:46%;
+  margin:auto;
+}
+
+.login1{
+  padding-top:6px;
+}
+
+.login-p{
+  padding-left:10px;
+  font-size:30px;
+}
+
+.button{
+  background-color: #AEC1AB;
+  border: none;
+  color: white;
+  padding: 10px 175px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 13px 13px;
+  cursor: pointer;
+}
+
+.create{
+  text-align:center;
+  padding-bottom:20px;
+}
+
+a1{
+  color:black;
+  text-decoration: underline;
+}
+
+a1:hover{
+  cursor: pointer;
+}
+
+.cart1{
+  padding-top:45px;
+  padding-bottom:45px;
+  text-align:center;
+}
+
+.cart-button{
+  background-color: #B9C9BB;
+  border: none;
+  color: white;
+  padding: 10px 175px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 13px 13px;
+  cursor: pointer;
+}
+
+p-cart{
+  font-size:20px;
+}
+
+p-cart1{
+  font-size:15px;
+}
+
+.shopping-cart{
+  color:white;
+  text-decoration: none;
+}
+
+.shopping-cart:hover{
+  color:white;
+  cursor: pointer;
+}
+
+
+.new-title{
+  font-size:40px;
+  text-align:center;
+  
+}
+
+.new-body-row{
+  display:flex;
+    padding-top:20px;
+  padding-bottom:40px;
+}
+
+.new-column{
+  font-size:19px;
+  text-align:center;
+   flex: 33.33%;
+  padding: 5px;
+   transition: transform .5s
+}
+
+.new-column:hover{
+ transform: scale(1.1);
+}
+
+.lipbalm{
+  padding-top:25px;
+
+}
+
+.lipbalm-pic{
+  margin-left:160px;
+  margin-bottom:40px;
+}
+
+.new-pics{
+  margin-bottom:15px;
+}
+
+
+
+.lipbalm-text{
+  line-height:2;
+  margin-top:150px;
+  margin-right: 260px;
+
+}
+
+.bag-text1{
+  margin-right:230px;
+}
+
+
+
+.lb-button{
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.gloves{
+  padding-top:25px;
+
+}
+
+.gloves-pic{
+  margin-left:160px;
+  margin-bottom:40px;
+}
+
+
+.gloves-text{
+  line-height:2;
+  margin-top:150px;
+  margin-right: 235px;
+
+}
+
+
+.gloves-button{
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/* .clothing-grid {
+  border:2px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20px 200px 200px;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+} */
+
+
+
+.clothing-page{
+  text-align:center;
+  margin-top:20px;
+  padding-bottom:40px;
+}
+
+.clothing-text{
+  margin-top:10px;
+    font-size:19px;
+  text-align:center;
+   flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+.clothing-img {
+    width: 77%;
+/*     height: 33%;
+    object-fit: cover; */
+} 
+
+
+
+.display-flex{
+  display:flex;
+  justify-content: center;
+  margin-bottom:10px;
+}
+
+.kitchenware-page{
+  padding-bottom: 0px
+}
+
+
+.notch-shirt-text{
+  margin-right:25px;
+}
+
+.merino-text{
+  margin-right:-12px;
+}
+
+.military-text{
+  margin-right:-21px;
+}
+
+.denim-text{
+  margin-right:-62px;
+}
+
+.liner-text{
+  margin-right:-93px;
+}
+
+.corduroy-text{
+  margin-right:-77px;
+}
+
+.chino-text{
+  margin-right:-103px;
+}
+
+.straw-text{
+  margin-right:-88px;
+}
+
+.steel-text{
+  margin-right:-86px;
+}
+
+.dishcloth-text{
+margin-right:-80px;
+}
+
+.produce-text{
+  margin-right:-149px;
+}
+
+.icepack-text{
+ margin-right:-130px;
+}
+
+.wrap-text{
+  margin-right:-141px;
+  }
+
+.stand-up-text{
+  margin-right:-153px;
+}
+
+.jars-text{
+  margin-right:-57px;
+}
+
+.bento-text{
+  margin-right:-93px;
+}
+
+.lemonrose-text{
+  margin-right:-48px;
+}
+
+.moisturizer-text{
+  margin-right:-72px;
+}
+
+.facial-bar-text{
+  margin-right:-10px;
+}
+
+.face-oil-text{
+  margin-right:-40px;
+}
+
+.bug-text{
+  margin-right:-46px;
+}
+
+.clay-mask-text{
+  margin-right:-58px;
+}
+
+.jojoba-text{
+  margin-right:45px;
+}
+
+.about-img{
+  width:100%;
+}
+
+.about-mission{
+  text-align:center;
+  font-size:1.75em;
+  font-weight:800;
+}
+
+.about-text{
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  padding-bottom:40px;
+}
+
