@@ -106,7 +106,7 @@ h1 {
     overflow: hidden;
   display: flex;
     justify-content:space-between;
-  background-color: rgb(246,243,246);
+  background-color: rgb(246,246,246);
 }
 
 img:nth-child(1):nth-last-child(3), 
@@ -152,6 +152,7 @@ img:nth-child(3):nth-last-child(1) {
 .new-arrivals{
   padding-left:20px;
   font-size:23px;
+  text-decoration:underline;
 }
 
 .skincare {
@@ -174,6 +175,7 @@ img:nth-child(3):nth-last-child(1) {
   padding-right: 30px;
   padding-top: 25px;
   font-size: 23px;
+  text-decoration:underline;
 }
 
 .moisturizers {
@@ -186,6 +188,8 @@ img:nth-child(3):nth-last-child(1) {
   padding-right: 30px;
   padding-top: 25px;
   font-size: 23px;
+    text-decoration:underline;
+
 }
 
 .block4{
@@ -221,6 +225,8 @@ img:nth-child(3):nth-last-child(1) {
   padding-right: 30px;
   padding-top: 25px;
   font-size: 23px;
+    text-decoration:underline;
+
 }
 
 .pants{
@@ -233,6 +239,8 @@ img:nth-child(3):nth-last-child(1) {
   padding-right: 30px;
   padding-top: 25px;
   font-size: 23px;
+  text-decoration:underline;
+
 }
 
 .outerwear{
@@ -245,6 +253,8 @@ img:nth-child(3):nth-last-child(1) {
   padding-right: 30px;
   padding-top: 25px;
   font-size: 23px;
+    text-decoration:underline;
+
 }
 
 .block5 {
@@ -753,4 +763,6 @@ margin-right:-80px;
   line-height:1.6;
   padding-bottom:40px;
 }
+
+
 
